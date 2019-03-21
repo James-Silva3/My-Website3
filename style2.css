@@ -1,0 +1,139 @@
+ 
+    .navbar-collapse {
+        border-color: #101010;
+        background-color: #080808;
+    }
+    
+    #lgname {
+      font-family: 'Amarante', cursive;
+      font-size: x-large;
+          color: #ffffff;
+          padding: 7px;
+    }
+
+
+
+
+    .container-fluid {
+    background-color: #000 !important;
+    color: white;
+}
+
+    .panel-footer  {
+    background-color: #286090 !important;
+    color: white;
+    padding: 10px 15px;
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+    }
+
+    .panel  {
+      background-color: #ddd !important;
+    border-radius: 10px !important;
+    border: none !important;
+    }
+
+      body {
+        background: url('file:///C:/Users/ca6.james/Documents/My%20website/plain-blue-background-wallpaper-3.jpg');
+        background-size: cover;
+    }
+
+  /* Remove the navbar's default margin-bottom and rounded borders */
+  
+  .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+  }
+  /* Add a gray background color and some padding to the footer */
+  
+  footer {
+      background-color: #f2f2f2;
+      padding-bottom: 30px;
+  }
+  
+  .carousel-inner img {
+      width: 100%;
+      /* Set width to 100% */
+      margin: auto;
+      min-height: 100px;
+  }
+  
+  .h3 {
+      padding-top: 20px;
+      padding-bottom: 0px;
+  }
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  
+  @media (max-width: 600px) {
+      .carousel-caption {
+          display: none;
+      }
+      #lgname{
+  display:none;
+}
+  }
+
+
+
+  @media (max-width: 767px) {
+   
+      #lgname{
+  display:none;
+}
+  }
+
+
+
+  /* Hide the menu text when the screen is less than 500 pixels wide */
+  
+  @media (min-width: 500px) {
+      .navbar-collapse {
+          display: none !important;
+
+      }
+
+
+
+
+  }
+
+
+
+  
+  @media (min-width: 1024px) {
+      .item img {
+          width: 1160px;
+          margin: 0 auto;
+      }
+  }
+  
+  .img-responsive {
+      width: 100%;
+      min-height: 100px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .rcorners2 {
+      border-radius: 15px;
+      border: 1px solid #cccccc;
+      padding-top: 12px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin: -9px;
+      margin-bottom: 24px;
+      background: #e8e8e8;
+  }
+  
+  .logo {
+      padding-top: 4px;
+      margin-top: 2px;
+  }
+
+.container {
+    padding-right: 65px;
+    padding-left: 65px;
+    margin-right: auto;
+    margin-left: auto;
+}
+

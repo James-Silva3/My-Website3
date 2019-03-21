@@ -1,0 +1,22 @@
+css_stylesheet
+
+.headertext {
+	color: #ffffff;
+    text-align: left;
+	font-size: 50px; 
+             }       
+ .container {padding: 80px 120px;}
+
+ .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 75%;
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    font-size: 19px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}

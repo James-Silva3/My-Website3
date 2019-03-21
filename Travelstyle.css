@@ -1,0 +1,140 @@
+    .navbar-collapse {
+        border-color: #101010;
+        background-color: #080808;
+    }
+    
+     #lgname {
+      font-family: 'Amarante', cursive;
+      font-size: x-large;
+          color: #ffffff;
+          padding: 7px;
+    }
+    
+    .panel-heading  {
+    background-color: #02416f;
+    color: white;
+    }
+
+    .container-fluid {
+    background-color: #000 !important;
+    color: white;
+}
+
+    .panel-danger{
+           border-color: #02416f;
+    }
+
+
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    
+    body {
+        background: url('file:///C:/Users/ca6.james/Documents/My%20website/plain-blue-background-wallpaper-3.jpg');
+        background-size: cover;
+    }
+    
+    .navbar {
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+    /* Add a gray background color and some padding to the footer */
+    
+    footer {
+        background-color: #f2f2f2;
+        padding-bottom: 30px;
+    }
+    
+    .carousel-inner img {
+        width: 100%;
+        /* Set width to 100% */
+        margin: auto;
+        min-height: 100px;
+    }
+    
+    .h3 {
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    
+    .logo {
+        padding-top: 4px;
+        margin-top: 2px;
+    }
+    
+    .container-fluid {
+        background-color: #02416f;
+        color: white;
+    }
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    
+    @media (max-width: 600px) {
+        .carousel-caption {
+            display: none;
+        }
+    }
+    /* Hide the menu text when the screen is less than 500 pixels wide */
+    
+    @media (min-width: 400px) {
+        .navbar-collapse {
+            display: none;
+        }
+        .panel-body {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .img-responsive {
+            min-height: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .container-fluid {
+            background-color: #02416f;
+            color: white;
+        }
+    }
+    
+    @media (min-width: 768px) {
+        .img-responsive {
+            min-height: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+
+      @media (max-width: 767px) {
+   
+      #lgname{
+  display:none;
+}
+  }
+  
+    
+    @media (min-width: 1024px) {
+        .item img {
+            width: 1160px;
+            margin: 0 auto;
+        }
+        .container {
+            padding-right: 15px;
+            padding-left: 7px !important;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .container-fluid {
+            background-color: #02416f;
+            color: white;
+        }
+
+        .panel-heading  {
+       background-color: #02416f;
+    color: white;
+    }
+
+    .panel{
+       border: 1px solid #02416f !important;
+    }
+
+
+
+    }
